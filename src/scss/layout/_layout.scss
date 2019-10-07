@@ -1,0 +1,81 @@
+.l-container {
+    max-width: $max-width;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    // display: flex;
+    // flex-wrap: wrap;
+}
+
+
+// .projects, .process, .services {
+//     transition: 1s;
+
+// }
+
+@for $i from 1 through 10 {
+    .mb-#{$i*1} {
+        margin-bottom: #{$i * 1rem}
+    }
+}
+
+@for $i from 1 through 10 {
+    .mt-#{$i*1} {
+        margin-top: #{$i * 1rem}
+    }
+}
+
+@for $i from 1 through 5 {
+    .ml-#{$i*1} {
+        margin-left: #{$i * 1rem}
+    }
+}
+
+@for $i from 1 through 5 {
+    .mr-#{$i*1} {
+        margin-right: #{$i * 1rem}
+    }
+}
+
+@for $i from 1 through 10 {
+    .vh-#{$i*10} {
+        height: #{$i * 10vh}
+    }
+}
+
+@for $i from 1 through 20 {
+    .s-#{$i*5} {
+        width: #{$i * 5%}
+    }
+}
+
+@include from (m){
+    @for $i from 1 through 20 {
+        .m-#{$i*5} {
+            width: #{$i * 5%}
+        }
+    }
+}
+
+@include from (l){
+    @for $i from 1 through 20 {
+        .l-#{$i*5} {
+            width: #{$i * 5%}
+        }
+    }
+}
+
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.left-align {
+    text-align: left;
+}
+

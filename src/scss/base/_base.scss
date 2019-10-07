@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-color); 
+    font-family: 'Catamaran', sans-serif;
+    font-size: var(--body-font-size);
+    position: relative;
+    top: $header-heigth;
+}
+
+// body{
+//     // overflow-x: hidden;
+// }
+
+a {
+	text-decoration: none;
+	color: #F7F9F9
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin:  0;
+}
+
+input, button {
+    padding: 0;
+    margin: 0;
+
+    &:focus {
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+button {
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    border-radius: .25em;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    padding: 0;
+    margin: 0;
+	line-height: var(--line-height);
+	color: #B5B5B6
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    font-weight: 800;
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+    font-weight: 800;
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+    font-weight: 800;
+}
+
+p {
+    font-weight: 300;
+    --line-height: 1.5em;
+}
+
+.dark-theme {
+	--light-color:          #F7F9F9;
+	--dark-color:           #292F36;
+	--svg-color-dark-third: #3C4148;
+	--svg-color-dark-alt:   #22272D;
+	--svg-color-gray:       #B5B5B6;
+	// --logo: url(../../../assets/img/logo-ligth.svg);
+}
+.light-theme {
+	--light-color:          #292F36;
+	--dark-color:           #F7F9F9;
+	--svg-color-dark-third: #B5B5B6;
+	--svg-color-dark-alt:   #767A7F;
+	--svg-color-gray:       #4F545A;
+	// --logo: url(../../../assets/img/logo-dark.svg);
+}
+
+.header-logo {
+	background: var(--logo);
+	height: 2.2rem;
+	background-repeat: no-repeat;
+}
+
+.h1 {
+    font-size: var(--h1-font-size);
+    font-weight: 800;
+}
+

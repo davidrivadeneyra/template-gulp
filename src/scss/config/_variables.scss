@@ -1,0 +1,150 @@
+// Colors css var
+:root {
+    --light-color: #F7F9F9;
+    --dark-color: #292F36;
+    --primary-color: #4392F1;
+    --alt-primary-color: #2660A4;
+    --secondary-color: #F69550;
+    --alt-secondary-color: #F6BD60;
+    --third-color: #FF526B;
+    --alt-third-color: #FF7185;
+    --gray-color: #B5B5B6;
+}
+// Colors svg css var
+:root {
+    --svg-color-light: #C1C1C1;
+    --svg-color-light-alt: #B5B5B6;
+    --svg-color-dark: #131619;
+    --svg-color-dark-alt:#22272D;
+    --svg-color-dark-third: #3C4148;
+    --svg-color-gray: #4F545A;
+    --svg-color-gray-alt:#767A7F;
+    --svg-blue: #2660A4;
+    --svg-blue-alt: #067BC2;
+    --svg-blue-third: #00A6FB;
+    --svg-red: #FF526B;
+    --svg-yellow: #F6BD60;
+    --svg-green: #0DAB76;
+    --svg-green-alt: #4FC19B;
+}
+
+// Colors scss var
+$light-color: #F7F9F9;
+$dark-color: #292F36;
+$primary-color: #4392F1;
+$alt-primary-color: #2660A4;
+$secondary-color: #F69550;
+$alt-secondary-color: #F6BD60;
+$third-color: #FF526B;
+$alt-third-color: #FF7185;
+$gray-color: #B5B5B6;
+
+:root {
+	--gradient-1: linear-gradient(150deg, rgba(6,123,194,1) 0%, rgba(255,82,107,1) 100%);
+	--gradient-2:	linear-gradient(150deg, rgba(79,193,155,1) 0%, rgba(9,79,164,1) 100%);
+	--gradient-3: linear-gradient(150deg, rgba(0,158,229,1) 0%, rgba(9,79,164,1) 100%);
+	--gradient-4:	linear-gradient(150deg, rgba(6,123,194,1) 0%, rgba(246,189,96,1) 100%);
+	--gradient-5:	linear-gradient(150deg, rgba(6,123,194,1) 0%, rgba(246,189,96,1) 100%);
+	--gradient-6:	linear-gradient(150deg, rgba(255,71,218,1) 0%, rgba(72,115,247,1) 100%);
+}
+
+.gradient-1 {
+    background: var(--gradient-1)
+}
+
+.gradient-2 {
+    background: var(--gradient-2)
+}
+
+.gradient-3 {
+    background: var(--gradient-3)
+}
+
+.gradient-4 {
+    background: var(--gradient-4)
+}
+
+.gradient-5 {
+    background: var(--gradient-5)
+}
+
+.gradient-6 {
+    background: var(--gradient-6)
+}
+
+:root   {
+    --opacity: 0;
+}
+// Layout
+$max-width: 1200px;
+$header-heigth: 4rem;
+$gap-s: 1rem;
+$gap-m: 2rem;
+$gap-l: 3rem;
+$gap-xl: 4rem;
+$height-body-s: 30vh;
+$height-body-m: 60vh;
+$height-body-l: 100vh;
+
+:root	{
+	--max-width: 1200px;
+	--header-heigth: 3rem;
+	--gap-1: 1rem;
+	--gap-2: 2rem;
+	--gap-3: 3rem;
+	--gap-4: 4rem;
+	--height-body-s: 30vh;
+	--height-body-m: 60vh;
+	--height-body-l: 100vh;
+}
+
+// z-index
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+// breakpoints
+$breakpoints : (
+    l:  960px,
+    m:  720px,
+    s:  640px
+);
+// font-size
+:root {
+    --h1-font-size: 2.2rem;
+    --h2-font-size: 2.1rem;
+    --h3-font-size: 1.5rem;
+    --body-font-size: 1rem;
+    --small-font-size: .85rem;
+    --xs-font-size: .75rem;
+    @include from(s) {
+        --h1-font-size: 2.8rem;
+        --h2-font-size: 2.5rem;
+        --h3-font-size: 1.7rem;
+        --body-font-size: 1.1rem;
+        --small-font-size: .9rem;
+        --xs-font-size: .85rem;
+    }
+}
+
+
+:root{
+    --line-height: 1.2em;
+}
+:root{
+    --service__img: 150px;
+    --process__img: 300px;
+}
+
+$fs-titulos: 3rem;
+$fs-parrafos: 1rem;
+$fs-small: .8rem;
+$fs-titles-movil: 2.1rem;
+$fs-links-menu-movil: 1.8rem;
+$line-height: 1.2em;
+
+// image
+$menu--social__logo-s: 1.2rem;
+$menu--social__logo-m: 1.8rem;

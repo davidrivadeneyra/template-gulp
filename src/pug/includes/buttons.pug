@@ -1,0 +1,12 @@
+div.search-container
+	+input('search', 'search', 'Ingresa el nombre')
+	div.search-container__box#result-search
+div.buttons-container
+	+button('/', 'show-characters', 'Characters')
+	+button('/comics/', 'show-comics', 'Comics')
+	+button('/series/', 'show-series', 'Series')
+	+button('/creators/', 'show-creators', 'Creators')
+div.buttons-pagination
+	+button('#', 'prev', 'Back')
+	+button('#', 'next', 'Next')
+div.container

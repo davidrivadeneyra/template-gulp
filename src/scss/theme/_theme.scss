@@ -1,0 +1,56 @@
+// .main-banner__title, .main-banner__description {
+//     line-height: $line-height;
+// }
+
+.main-banner__title {
+    color: var(--light-color);
+
+}
+
+.main-banner__description {
+    color: var(--svg-color-gray);
+}
+
+.cool-description {
+    color: var(--primary-color);
+}
+
+.wrap::before {
+    content: '';
+    color: var(--primary-color)
+}
+
+.wrap::after {
+    content: '_';
+    color: var(--primary-color)
+}
+
+.service__title    {
+    color: var(--light-color);
+
+    &:hover {
+        color: var(--primary-color)
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  /* Track */
+::-webkit-scrollbar-track {
+background: var(--svg-color-dark-third); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: var(--svg-color-dark-alt); 
+border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+// background: var(--svg-color-dark); 
+    background: rgba(41, 47, 54, 0.699)
+}
+
